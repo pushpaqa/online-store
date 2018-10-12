@@ -41,6 +41,7 @@ public class Blank_CreateAnAccount_TC {
 		
 		Assert.assertEquals(alerttext, CreateAnAccount_Page.Alerttxt_Email(Constant.driver).getText());
 		System.out.println(CreateAnAccount_Page.Alerttxt_Email(Constant.driver).getText());
+		System.out.println(CreateAnAccount_Page.Alerttxt_Email(Constant.driver).getText());
 		
 		Assert.assertEquals(alerttext, CreateAnAccount_Page.Alerttxt_Mobile(Constant.driver).getText());
 		System.out.println(CreateAnAccount_Page.Alerttxt_Mobile(Constant.driver).getText());
@@ -58,6 +59,8 @@ public class Blank_CreateAnAccount_TC {
 	public void teardown() throws Exception
 	{
 		Constant.driver.close();
+		
+			
 	}
 
 }
