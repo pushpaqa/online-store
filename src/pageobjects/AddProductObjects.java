@@ -13,6 +13,7 @@ public class AddProductObjects {
 
 		element = driver.findElement(By.xpath("//li[@id='menu-magento-catalog-catalog']/a"));
 System.out.println("test");
+		System.out.println("test");
 		// Element is returned, so that an Action can be performed on it.
 		return element;
 		
